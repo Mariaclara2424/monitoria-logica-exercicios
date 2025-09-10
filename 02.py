@@ -1,9 +1,8 @@
 # Exercício 2: Verificar idade
 # Complete a condição para verificar se a pessoa é maior de idade
+idade = int(input( "me infome a sua  idade:"))
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
 
-"""
-    - O programa deve pedir a idade do usuário
-    - Após isso, deve verificar se o usuário é maior de idade ou não.
-Regra para ser considerado maior de idade:
-    - Ter a partir de 18 anos.
-"""
