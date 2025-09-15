@@ -1,8 +1,9 @@
 # Exercício 8: Temperatura
 # Use operador ternário para classificar a temperatura
+temperatura = float(input("Digite a temperatura em graus Celsius: "))
 
-"""
-    - O programa deve pedir ao usuário a temperatura em graus Celsius.
-    - Se a temperatura for maior ou igual a 30, o programa deve dizer "Está quente!".
-    - Caso contrário, deve dizer "Está agradável.".
-"""
+# Classifica a temperatura usando operador ternário
+mensagem = "Está quente!" if temperatura >= 30 else "Está agradável."
+
+# Exibe a mensagem
+print(mensagem)
